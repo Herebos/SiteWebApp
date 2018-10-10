@@ -6,3 +6,4 @@ Task en comment sur page désignée
 
 /!\ version mobile/multi support/responsive design /!\
 
+Table ID client a incrémenter (pas de doublons)
