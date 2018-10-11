@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+
+<head>
+    <!--Page index v1-->
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Sign In</title>
+</head>
+
+<body>
+
+    <ul>
+        <li><a href="index.html">Index</a></li>
+        <li><a href="carte.html">Carte</a></li>
+        <li><a href="search.html">Trouve ton groupe</a></li>
+        <li><a href="profil.html">Profil</a></li>
+        <li class="deroulant"><a href="#" class="btnDeroulant">Cours <b class="fleche"></b></a>
+            <div class="menu-deroulant">
+                <a href="guitare.html">Guitare</a>
+                <a href="bass.html">Bass</a>
+                <a href="drum.html">Batterie</a>
+                <a href="autre.html">Autre</a>
+            </div>
+        </li>
+    </ul>
+
+    <h1>Inscrivez vous !</h1>
+    
+    <form method="post" action="write">
+        <label for="pseudo">Ton pseudo</label><br/>
+        <input type="text" id="pseudo" name="user_pseudo">
+    </form>
+    
+    <form method="post" action="choose">
+   <p>
+       <label for="Instru">Ton Instrument</label><br />
+       <select name="instrument" id="instrument">
+           <option value="guitare">Guitare</option>
+           <option value="bass">Bass</option>
+           <option value="drum">Batterie</option>
+           <option value="triangle">Triangle</option>
+</select>
+   </p>
+</form>
+    
+        <form method="post" action="choose">
+   <p>
+       <label for="Style">Ton Style</label><br />
+       <select name="style" id="style">
+           <option value="jazz">Jazz</option>
+           <option value="blues">Blues</option>
+           <option value="metal">Metal</option>
+           <option value="Reggae">Reggae</option>
+</select>
+   </p>
+</form>
+    
+        <form method="post" action="choose">
+   <p>
+       <label for="search">Tu cherche</label><br />
+       <select name="Search" id="Search">
+           <option value="groupe">Un groupe</option>
+           <option value="Sguitare">Un.e guitariste</option>
+           <option value="Sbass">Un.e bassiste</option>
+           <option value="Sdrum">Un.e batteure.es</option>
+</select>
+   </p>
+</form>
+
+    <a href="profil.html"><button>S'inscrire !</button> </a>
+
+
+</body>
+
+</html>
