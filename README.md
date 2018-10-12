@@ -6,4 +6,7 @@ Task en comment ou en <p></p> sur page désignée
 
 /!\ version mobile/multi support/responsive design /!\
 
+Ne pas se concentrer sur guitare, bass, drum et autre.html
+Non nécessaire pour le dossier et complexe
+
 Table ID client a incrémenter (pas de doublons)
