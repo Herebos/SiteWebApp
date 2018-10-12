@@ -3,7 +3,6 @@ Site de "matche" entre musiciens.
 Arrivé sur le site -> Remplissage du profil (nom, instru, style, zone géo, horaire, je recherche) -> inscription -> recherche (je suis (mon profil), je cherche (groupe/personne, instru, style, géo, horaire)
 
 Dossier :
-- Remerciement
 - Intro 
 	* Présentation de l'appli
 - CDC
@@ -12,3 +11,4 @@ Dossier :
 	* Fonctionnement de l'app web
 		° Les fonctionnalitées importantes une à une(sign in, log in, search, api maps, inser in DB, get from DB...)
 - Conclusion (Ce que j'ai appris, ce que je veux faire, diff aspect de l'app, front, back)
+- Remerciement
