@@ -2,3 +2,14 @@ Site de "matche" entre musiciens.
 
 Arrivé sur le site -> Remplissage du profil (nom, instru, style, zone géo, horaire, je recherche) -> inscription -> recherche (je suis (mon profil), je cherche (groupe/personne, instru, style, géo, horaire)
 
+Dossier :
+- Remerciement
+- Intro 
+	* Présentation (FR & ENG)
+- CDC
+	* Présentation de l'appli
+	* Langage et techno utiliser (git, html, css, java etc...)
+	* Organisation du projet (kanban github)
+	* Fonctionnement de l'app web
+		° Les fonctionnalitées une à une(sign in, log in, search, api maps, inser in DB, get from DB...)
+- Conclusion (Ce que j'ai appris, ce que je veux faire, diff aspect de l'app, front, back)
