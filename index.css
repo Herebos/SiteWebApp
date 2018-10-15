@@ -14,10 +14,16 @@ form {
     text-align: center;
 }
 
+.log {
+    margin: auto;
+    text-align: center;
+}
+
 button {
-    display: block;
     margin: auto;
     margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 5px;
 }
 
