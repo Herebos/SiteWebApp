@@ -1,3 +1,26 @@
+body {
+    background-image: url(images/fond.png);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: auto;
+    padding: auto;
+}
+
+h1, h3, p {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
 /*Menu Déroulant*/
 ul {
     list-style-type: none;
