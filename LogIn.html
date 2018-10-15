@@ -2,19 +2,19 @@
 <html>
 
 <head>
-    <!--Profil-->
+    <!--Page Login-->
     <meta charset="utf-8" />
     <link rel="stylesheet" href="index.css" />
-    <title>Index</title>
+    <title>Login</title>
 </head>
 
 <body>
 
     <ul>
-        <li><a href="index.html">Index</a></li>
+        <li><a href="index.html" class="active">Index</a></li>
         <li><a href="carte.html">Carte</a></li>
         <li><a href="search.html">Trouve ton groupe</a></li>
-        <li><a href="profil.html" class="active">Profil</a></li>
+        <li><a href="profil.html">Profil</a></li>
         <li class="deroulant"><a href="#" class="btnDeroulant">Cours <b class="fleche"></b></a>
             <div class="menu-deroulant">
                 <a href="guitare.html">Guitare</a>
@@ -25,9 +25,16 @@
         </li>
     </ul>
 
-    <p>Changer instru, genre, nom, contact, photo.</p>
-    <p>get via DB SQL</p>
-    
+    <h1>Connection</h1>
+    <form method="post" action="write">
+        <label for="pseudo">Pseudo</label><br/>
+        <input type="text" id="pseudo" name="user_pseudo">
+    </form>
+    <form method="post" action="write">
+        <label for="mdp">Mot de passe</label><br/>
+        <input type="text" id="mdp" name="user_mdp">
+    </form>
+    <a href="profil.html"><button>Log In</button></a>
 
 
 
