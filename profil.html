@@ -11,10 +11,10 @@
 <body>
 
     <ul>
-        <li><a href="index.html">Index</a></li>
+        <li><a href="index.php">Index</a></li>
         <li><a href="carte.html">Carte</a></li>
         <li><a href="search.html">Trouve ton groupe</a></li>
-        <li><a href="profil.html" class="active">Profil</a></li>
+        <li><a href="profil.php" class="active">Profil</a></li>
         <li class="deroulant"><a href="#" class="btnDeroulant">Cours <b class="fleche"></b></a>
             <div class="menu-deroulant">
                 <a href="guitare.html">Guitare</a>
@@ -25,9 +25,26 @@
         </li>
     </ul>
 
+    <p>Bonjour
+        <strong>
+            <?php echo $_POST['user_pseudo']; ?></strong> !</p>
+    <p>Ton MdP est
+        <strong>
+            <?php echo $_POST['user_mdp']; ?></strong>.</p>
+    <p>Tu joue de la
+        <strong>
+            <?php echo $_POST['instrument']; ?></strong>.</p>
+    <p>Ton style est
+        <strong>
+            <?php echo $_POST['style']; ?></strong>.</p>
+    <p>Tu recherche un.e
+        <strong>
+            <?php echo $_POST['search']; ?></strong>.</p>
+
+    <p>Modifier les infos <a href="SignIn.php">ICI</a></p>
     <p>Changer instru, genre, nom, contact, photo.</p>
     <p>get via DB SQL</p>
-    
+
 
 
 

@@ -11,10 +11,10 @@
 <body>
 
     <ul>
-        <li><a href="index.html">Index</a></li>
+        <li><a href="index.php">Index</a></li>
         <li><a href="carte.html">Carte</a></li>
         <li><a href="search.html">Trouve ton groupe</a></li>
-        <li><a href="profil.html">Profil</a></li>
+        <li><a href="profil.php">Profil</a></li>
         <li class="deroulant"><a href="#" class="btnDeroulant">Cours <b class="fleche"></b></a>
             <div class="menu-deroulant">
                 <a href="guitare.html">Guitare</a>
@@ -26,55 +26,55 @@
     </ul>
 
     <h1>Inscrivez vous !</h1>
-    
-    <form method="post" action="write">
-        <label for="pseudo">Ton pseudo</label><br/>
-        <input type="text" id="pseudo" name="user_pseudo">
-    </form>
-    <form method="post" action="write">
-        <label for="mdp">Mot de passe</label><br/>
-        <input type="text" id="mdp" name="user_mdp">
-    </form>
-    
-    <form method="post" action="choose">
-   <p>
-       <label for="Instru">Ton Instrument</label><br />
-       <select name="instrument" id="instrument">
-           <option value="guitare">Guitare</option>
-           <option value="bass">Bass</option>
-           <option value="drum">Batterie</option>
-           <option value="other">Autre</option>
-</select>
-   </p>
-</form>
-    
-        <form method="post" action="choose">
-   <p>
-       <label for="Style">Ton Style</label><br />
-       <select name="style" id="style">
-           <option value="jazz">Jazz</option>
-           <option value="blues">Blues</option>
-           <option value="metal">Metal</option>
-           <option value="Reggae">Reggae</option>
-</select>
-   </p>
-</form>
-    
-        <form method="post" action="choose">
-   <p>
-       <label for="search">Tu cherche</label><br />
-       <select name="Search" id="Search">
-           <option value="groupe">Un groupe</option>
-           <option value="Sguitare">Un.e guitariste</option>
-           <option value="Sbass">Un.e bassiste</option>
-           <option value="Sdrum">Un.e batteure.es</option>
-</select>
-   </p>
-</form>
 
-    <div class="log">
-    <a href="profil.html"><button>S'inscrire !</button> </a>
-    </div>
+    <form action="profil.php" method="post">
+        <!--Pseudo-->
+        <label>Ton pseudo</label><br />
+        <input type="text" name="user_pseudo"><br />
+
+        <!--Mot de passe-->
+        <label for="mdp">Mot de passe</label><br />
+        <input type="password" name="user_mdp">
+
+
+        <p>
+            <!--Instrument-->
+            <label>Ton Instrument</label><br />
+            <select name="instrument">
+                <option value="guitare">Guitare</option>
+                <option value="bass">Bass</option>
+                <option value="drum">Batterie</option>
+                <option value="other">Autre</option>
+            </select>
+        </p>
+
+
+        <p>
+            <!--Style-->
+            <label>Ton Style</label><br />
+            <select name="style">
+                <option value="Jazz">Jazz</option>
+                <option value="Blues">Blues</option>
+                <option value="Metal">Metal</option>
+                <option value="Reggae">Reggae</option>
+            </select>
+        </p>
+
+        <p>
+            <!--Search-->
+            <label>Tu cherche</label><br />
+            <select name="search">
+                <option value="groupe">Un groupe</option>
+                <option value="guitariste">Un.e guitariste</option>
+                <option value="bassiste">Un.e bassiste</option>
+                <option value="batteure.es">Un.e batteure.es</option>
+            </select>
+        </p>
+
+
+
+        <input type="submit" value="Valider" />
+    </form>
 
 
 </body>

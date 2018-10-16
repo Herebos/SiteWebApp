@@ -11,10 +11,10 @@
 <body>
 
     <ul>
-        <li><a href="index.html" class="active">Index</a></li>
+        <li><a href="index.php" class="active">Index</a></li>
         <li><a href="carte.html">Carte</a></li>
         <li><a href="search.html">Trouve ton groupe</a></li>
-        <li><a href="profil.html">Profil</a></li>
+        <li><a href="profil.php">Profil</a></li>
         <li class="deroulant"><a href="#" class="btnDeroulant">Cours <b class="fleche"></b></a>
             <div class="menu-deroulant">
                 <a href="guitare.html">Guitare</a>
@@ -27,9 +27,11 @@
 
     <h1>Search'n'Play</h1>
     <h3>Cherche des membres et forme ton groupe !</h3>
+    <p>Nous sommes le
+        <?php echo date('d/m/Y'); ?>.</p>
     <div class="log">
-    <a href="SignIn.html"><button>Sign In</button></a>
-    <a href="LogIn.html"><button>Log In</button></a>
+        <a href="SignIn.php"><button>Sign In</button></a>
+        <a href="LogIn.html"><button>Log In</button></a>
     </div>
 
 
