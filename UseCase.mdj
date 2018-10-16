@@ -2617,7 +2617,7 @@
 											"top": 434,
 											"width": 63,
 											"height": 13,
-											"text": "profil.html"
+											"text": "profil"
 										},
 										{
 											"_type": "LabelView",
@@ -2650,7 +2650,7 @@
 									"font": "Arial;13;0",
 									"left": 407.5,
 									"top": 427,
-									"width": 73.54638671875,
+									"width": 73,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFmZ+9935gEluQ="
@@ -3071,7 +3071,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFmZ+g2nJH80aM="
 							},
-							"name": "profil.html",
+							"name": "profil",
 							"ownedElements": [
 								{
 									"_type": "UMLDependency",
