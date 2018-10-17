@@ -10,3 +10,5 @@ Ne pas se concentrer sur guitare, bass, drum et autre.html
 Non nécessaire pour le dossier et complexe
 
 Table ID client a incrémenter (pas de doublons)
+
+Voir PC de bureau => page PHP préparer, DL Wampserver
